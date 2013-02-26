@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="author" content="Boris Staal">
   
-  <meta name="description" content="tweets("_inossidabile", 1, function(data) { $('#tweet').html( prepareTweet(data[0]) ); }) Dangers of Turbolinks Jan 18, 2013 | Rails, Turbolinks, &hellip;">
+  <meta name="description" content="tweets("_inossidabile", 1, function(data) { $('#tweet').html( prepareTweet(data[0]) ); }) Mastering ActiveAdmin Feb 26, 2013 | ActiveAdmin, Rails &hellip;">
   
   
   <link rel="canonical" href="http://staal.io/">
@@ -115,12 +115,47 @@
   
   <article class="main">
     <h1>
-      <a href="/blog/2013/01/18/dangers-of-turbolinks/">Dangers of Turbolinks</a>
+      <a href="/blog/2013/02/26/mastering-activeadmin/">Mastering ActiveAdmin</a>
     </h1>
     <time>
-      Jan 18, 2013 | <a class='category' href='/blog/categories/rails/'>Rails</a>, <a class='category' href='/blog/categories/turbolinks-/'>Turbolinks,</a>
+      Feb 26, 2013 | <a class='category' href='/blog/categories/activeadmin/'>ActiveAdmin</a>, <a class='category' href='/blog/categories/rails/'>Rails</a>
     </time>
-    <p>Turbolinks! This &#8220;award-winning&#8221; technology earned incredible amount of criticism in such a short time! But it still is on the roadmap of Rails 4. As an evangelist of client frameworks I did not find any interest in that previously. And now suddenly life has brought us together. So let&#8217;s see if it really is THAT bad. And what are the reasons if it is.</p>
+    <p>Did you know ActiveAdmin was awesome?</p>
+
+<p>For the last 6 months I tried adapting ActiveAdmin to three projects with pretty different goals. And it was a great success for each of them. However everything comes with a price. ActiveAdmin has excellent DSL but it lacks architectural quality and feature-richness (mainly due to extremely slow development progress).</p>
+
+<p>The main goal of this post is to share my vision of administration frameworks potential we could expect. While ActiveAdmin in my opinion is the first one that finally felt the ground.</p>
+
+<p>Blog post format is not the best one to gather all the issues (while GitHub definitely is) – so I&#8217;ll keep it short addressing main of them. After &#8220;why I think AA is the true way&#8221; introduction I&#8217;ll do a bit of interface nit-picking. And that&#8217;s probably the most interesting part for you cause you can grab all that tiny improvements and add them to your own AA integrations. Second part on the other hand describes fundamental architecture lacks and possible alternative implementations.</p>
+
+
+  </article>
+  <div class="more">
+    <div class="read">
+      <a href="/blog/2013/02/26/mastering-activeadmin/">Read more</a>
+      <span>&rarr;</span>
+    </div>
+    <div class="comments">
+      <img src="/images/comments.png">
+      <a href="/blog/2013/02/26/mastering-activeadmin/#disqus_thread">Comments</a>
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="olders">
+  
+    <ul class="olders">
+    <li class="older odd">
+      <article>
+        <h1>
+          <a href="/blog/2013/01/18/dangers-of-turbolinks/">Dangers of Turbolinks</a>
+        </h1>
+        <time>
+          Jan 18, 2013 | <a class='category' href='/blog/categories/rails/'>Rails</a>, <a class='category' href='/blog/categories/turbolinks-/'>Turbolinks,</a>
+        </time>
+        <p>Turbolinks! This &#8220;award-winning&#8221; technology earned incredible amount of criticism in such a short time! But it still is on the roadmap of Rails 4. As an evangelist of client frameworks I did not find any interest in that previously. And now suddenly life has brought us together. So let&#8217;s see if it really is THAT bad. And what are the reasons if it is.</p>
 
 <h3>Part 1. Well-known problems</h3>
 
@@ -136,25 +171,26 @@
 <p>This code runs only during direct page loads. Turbolinks fetcher ignores it.</p>
 
 
-  </article>
-  <div class="more">
-    <div class="read">
-      <a href="/blog/2013/01/18/dangers-of-turbolinks/">Read more</a>
-      <span>&rarr;</span>
-    </div>
-    <div class="comments">
-      <img src="/images/comments.png">
-      <a href="/blog/2013/01/18/dangers-of-turbolinks/#disqus_thread">Comments</a>
-    </div>
-  </div>
+      </article>
+      <div class="more">
+        <div class="read">
+          <a href="/blog/2013/01/18/dangers-of-turbolinks/">Read more</a>
+          <span>&rarr;</span>
+        </div>
+        <div class="comments">
+          <img src="/images/comments.png">
+          <a href="/blog/2013/01/18/dangers-of-turbolinks/#disqus_thread">Comments</a>
+        </div>
+      </div>
+    </li>
+    
+    
   
   
   
   
-  <div class="olders">
-  
-    <ul class="olders">
-    <li class="older odd">
+    
+    <li class="older even">
       <article>
         <h1>
           <a href="/blog/2013/01/12/redistributable-rails-applications/">Redistributable Rails applications</a>
@@ -192,14 +228,14 @@
         </div>
       </div>
     </li>
+    </ul>
     
-    
   
   
   
   
-    
-    <li class="older even">
+    <ul class="olders">
+    <li class="older odd">
       <article>
         <h1>
           <a href="/blog/2012/11/24/rails-acceptance-tests-coverage/">Rails acceptance tests coverage</a>
@@ -230,14 +266,14 @@
         </div>
       </div>
     </li>
-    </ul>
+    
     
   
   
   
   
-    <ul class="olders">
-    <li class="older odd">
+    
+    <li class="older even">
       <article>
         <h1>
           <a href="/blog/2012/06/04/joosy-alternative-approach-to-browser-frameworks/">Joosy: alternative approach to browser frameworks</a>
@@ -273,14 +309,14 @@
         </div>
       </div>
     </li>
+    </ul>
     
-    
   
   
   
   
-    
-    <li class="older even">
+    <ul class="olders">
+    <li class="older odd">
       <article>
         <h1>
           <a href="/blog/2012/04/08/conventions-i-kill-you/">Conventions! I kill you!</a>
@@ -314,14 +350,14 @@
         </div>
       </div>
     </li>
-    </ul>
+    
     
   
   
   
   
-    <ul class="olders">
-    <li class="older odd">
+    
+    <li class="older even">
       <article>
         <h1>
           <a href="/blog/2012/04/01/heimdallr-orm-field-level-security/">Heimdallr: ORM field-level security</a>
@@ -352,14 +388,14 @@
         </div>
       </div>
     </li>
+    </ul>
     
-    
   
   
   
   
-    
-    <li class="older even">
+    <ul class="olders">
+    <li class="older odd">
       <article>
         <h1>
           <a href="/blog/2012/03/24/rails-plus-rest-avoiding-the-views-nightmare/">Rails + REST: views nightmare</a>
@@ -392,7 +428,7 @@
         </div>
       </div>
     </li>
-    </ul>
+    
     
   </div>
   
