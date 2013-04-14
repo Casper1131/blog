@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Vagrant | Staal Forge]]></title>
   <link href="http://staal.io/blog/categories/vagrant/atom.xml" rel="self"/>
   <link href="http://staal.io/"/>
-  <updated>2013-04-14T09:31:33+07:00</updated>
+  <updated>2013-04-15T00:39:00+07:00</updated>
   <id>http://staal.io/</id>
   <author>
     <name><![CDATA[Boris Staal]]></name>
@@ -56,11 +56,11 @@
 
 <h3>The goal</h3>
 
-<p>There is something more behind Rove than just a web interface. The interface itself is based on a small DSL that allows you to help us make the service better. Currently it consists of 12 recipes but we hope it's just a start. Rove sources are hosted at <a href="https://github.com/aderyabin/">Github</a> and you are free to extend the whole service with new recipes by using <a href="https://github.com/aderyabin/hospice/pulls">pull requests</a>.</p>
+<p>There is something more behind Rove than just a web interface. The interface itself is based on a small DSL that allows you to help us make the service better. Currently it consists of 12 recipes but we hope it's just a start. Rove sources are hosted at <a href="https://github.com/aderyabin/">Github</a> and you are free to extend the whole service with new recipes by using <a href="https://github.com/aderyabin/rove/pulls">pull requests</a>.</p>
 
 <p>That's said: Chef recipes' reality is a big mess at the moment. We hope to separate the wheat from the chaff. And if you can help &mdash; you are very very welcome.</p>
 
-<p>We have prepared a <a href="https://github.com/aderyabin/hospice#dsl-description">nice introduction to the DSL at README</a>. Duplicating it here would not make a lot of sense. Let met introduce you a real package to demonstrate how easy it is instead:</p>
+<p>We have prepared a <a href="https://github.com/aderyabin/rove#dsl-description">nice introduction to the DSL at README</a>. Duplicating it here would not make a lot of sense. Let met introduce you a real package to demonstrate how easy it is instead:</p>
 
 <p>```ruby</p>
 
@@ -101,7 +101,7 @@ config {|value| {redis: {port: value}}}
 end
 ```</p>
 
-<p>You can found another bunch of live samples here: <a href="https://github.com/aderyabin/hospice/blob/master/packages/">/packages</a>.</p>
+<p>You can found another bunch of live samples here: <a href="https://github.com/aderyabin/rove/blob/master/packages/">/packages</a>.</p>
 
 <hr />
 
