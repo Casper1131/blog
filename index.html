@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="author" content="Boris Staal">
   
-  <meta name="description" content="tweets("_inossidabile", 1, function(data) { $('#tweet').html( prepareTweet(data[0]) ); }) The Protector! Jun 04, 2013 | ActiveRecord, Heimdallr, ORM &hellip;">
+  <meta name="description" content="Last tweet was supposed to be here but Twitter blocked anonymous API requests ;( The Protector! Jun 04, 2013 | ActiveRecord, Heimdallr, ORM, &hellip;">
   
   
   <link rel="canonical" href="http://staal.io/">
@@ -14,7 +14,6 @@
   <script src="/javascripts/modernizr.js"></script>
   <script src="/javascripts/jquery.js"></script>
   <script src="/javascripts/application.js"></script>
-  <script src="/javascripts/twitter.js"></script>
   <link href="/atom.xml" rel="alternate" title="Staal Forge" type="application/atom+xml">
   <title>Staal Forge</title>
 </head>
@@ -94,14 +93,7 @@
             </ul>
           </div>
           <div class="content">
-            <script type="text/javascript">
-  tweets("_inossidabile", 1, function(data) {
-    $('#tweet').html(
-      prepareTweet(data[0])
-    );
-  })
-</script>
-<div class="twitterBar">
+            <div class="twitterBar">
   <table>
     <tr>
       <td>
@@ -110,6 +102,7 @@
         </a>
       </td>
       <td id="tweet">
+        <a href="http://twitter.com/_inossidabile">Last tweet</a> was supposed to be here but Twitter blocked anonymous API requests ;(
       </td>
     </tr>
   </table>

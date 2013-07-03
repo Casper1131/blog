@@ -2,52 +2,52 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://staal.io/blog/2012/03/24/rails-plus-rest-avoiding-the-views-nightmare/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/blog/2012/04/01/heimdallr-orm-field-level-security/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/blog/2012/04/08/conventions-i-kill-you/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>
             http://staal.io/blog/2012/06/04/joosy-alternative-approach-to-browser-frameworks/
         </loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/blog/2012/11/24/rails-acceptance-tests-coverage/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/blog/2013/01/12/redistributable-rails-applications/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/blog/2013/01/18/dangers-of-turbolinks/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/blog/2013/02/26/mastering-activeadmin/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/blog/2013/04/12/vagrant-to-the-masses/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/blog/2013/06/04/the-protector/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/blog/archives/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/</loc>
-        <lastmod>2013-06-05T03:30:20+07:00</lastmod>
+        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
 </urlset>
