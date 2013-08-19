@@ -5,17 +5,17 @@
   <meta charset="utf-8">
   <meta name="author" content="Boris Staal">
   
-  <meta name="description" content="Category: Joosy">
+  <meta name="description" content="Last tweet was supposed to be here but Twitter blocked anonymous API requests ;( Rails + REST: views nightmare Mar 24, 2012 | JSON, Pattern, REST, &hellip;">
   
   
-  <link rel="canonical" href="http://staal.ioblog/categories/joosy/">
+  <link rel="canonical" href="http://staal.io/blog/page/2/">
   <link href="/favicon.ico" rel="icon">
   <link href="/stylesheets/screen.css" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr.js"></script>
   <script src="/javascripts/jquery.js"></script>
   <script src="/javascripts/application.js"></script>
   <link href="/atom.xml" rel="alternate" title="Staal Forge" type="application/atom+xml">
-  <title>Category: Joosy - Staal Forge</title>
+  <title>Staal Forge</title>
 </head>
 <body>
   <table class="layoutTable" cellspacing="0" cellpadding="0">
@@ -91,35 +91,67 @@
             </ul>
           </div>
           <div class="content">
-            <table class="archiveTable" cellspacing="0" cellpadding="0">
-  <tbody>
-    
+            <div class="twitterBar">
+  <table>
     <tr>
-      
-      
-        
-        <td><div class="year">2013</div></td>
-      
       <td>
-        <a class="head" href="/blog/2013/08/17/incredibly-convenient-testing-of-frontend-javascript-with-node-dot-js/">Incredibly convenient testing of front-end Javascript with Node.js</a>
-        <time>Aug 17 | <a class='category' href='/blog/categories/grunt/'>Grunt</a>, <a class='category' href='/blog/categories/joosy/'>Joosy</a>, <a class='category' href='/blog/categories/mincer/'>Mincer</a>, <a class='category' href='/blog/categories/node-js/'>Node.js</a>, <a class='category' href='/blog/categories/testem/'>Testem</a></time>
+        <a href="http://twitter.com/_inossidabile">
+          <img src="/images/twitter.png" alt="twitter">
+        </a>
+      </td>
+      <td id="tweet">
+        <a href="http://twitter.com/_inossidabile">Last tweet</a> was supposed to be here but Twitter blocked anonymous API requests ;(
       </td>
     </tr>
+  </table>
+</div>
+<div class="index">
+  
+  
+  <article class="main">
+    <h1>
+      <a href="/blog/2012/03/24/rails-plus-rest-avoiding-the-views-nightmare/">Rails + REST: views nightmare</a>
+    </h1>
+    <time>
+      Mar 24, 2012 | <a class='category' href='/blog/categories/json/'>JSON</a>, <a class='category' href='/blog/categories/pattern/'>Pattern</a>, <a class='category' href='/blog/categories/rest/'>REST</a>, <a class='category' href='/blog/categories/rails/'>Rails</a>
+    </time>
+    <p>Rails is rapidly getting more and more popular as a comfortable platform for REST services. And it really is. We do Rails in this way for quite a long time already. There is however a real problem: <strong>JSON views are unmanageable!</strong></p>
+
+<p>At first it may look like everything’s just fine. All you need is <s>love</s> <code>.to_json</code> or <a href="https://github.com/nesquena/rabl">RABL</a> is some particular cases. But then things go wild. And you start switching JSON Builders one after another.</p>
+
+<h3>The problem</h3>
+
+<p>Let’s say you have a banking service. That’s like 30 models. Each has extended CRUD endpoint (extensions are maybe 3 or 4 methods per endpoint). Each model has like 10 or 12 fields which are quite common to be large strings. And off course all that stuff is insanely linked up to like 4 or 5 levels of <code>belongs_to</code>.</p>
+
+<p>The another thing to remember is that in real life your JSON entities are not just dumps of your ActiveRecord attributes. Two very common things are conditions (whether an attribute should appear) and custom methods.</p>
+
+<p><strong>The problem is that consumer often wants unique set of fields for EVERY method among EVERY endpoint. Set of relations&#8217; fields can differ too!</strong></p>
+
+
+  </article>
+  <div class="more">
+    <div class="read">
+      <a href="/blog/2012/03/24/rails-plus-rest-avoiding-the-views-nightmare/">Read more</a>
+      <span>&rarr;</span>
+    </div>
+    <div class="comments">
+      <img src="/images/comments.png">
+      <a href="/blog/2012/03/24/rails-plus-rest-avoiding-the-views-nightmare/#disqus_thread">Comments</a>
+    </div>
+  </div>
+  
+  
+  <div style="clear:both"></div>
+  <div class="paginator">
     
-    <tr>
-      
-      
-        
-        <td><div class="year">2012</div></td>
-      
-      <td>
-        <a class="head" href="/blog/2012/06/04/joosy-alternative-approach-to-browser-frameworks/">Joosy: alternative approach to browser frameworks</a>
-        <time>Jun 04 | <a class='category' href='/blog/categories/joosy/'>Joosy</a>, <a class='category' href='/blog/categories/rest/'>REST</a>, <a class='category' href='/blog/categories/rails/'>Rails</a></time>
-      </td>
-    </tr>
     
-  </tbody>
-</table>
+    <div class="button">
+      <a href="/">Newer entries</a>
+      <img src="/images/right_arrow.png" alt="right_arrow">
+    </div>
+    
+  </div>
+</div>
           </div>
           <div class="footer">
             Powered by <a href="http://octopress.org">Octopress</a>; Hosted at <a href="https://github.com/inossidabile/blog">Github</a>; Stay tuned :)

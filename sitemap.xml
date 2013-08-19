@@ -24,7 +24,7 @@
     </url>
     <url>
         <loc>http://staal.io/blog/2013/01/12/redistributable-rails-applications/</loc>
-        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
+        <lastmod>2013-08-18T05:03:36+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/blog/2013/01/18/dangers-of-turbolinks/</loc>
@@ -43,11 +43,17 @@
         <lastmod>2013-07-03T23:32:46+07:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://staal.io/blog/2013/08/17/incredibly-convenient-testing-of-frontend-javascript-with-node-dot-js/
+        </loc>
+        <lastmod>2013-08-18T23:18:52+07:00</lastmod>
+    </url>
+    <url>
         <loc>http://staal.io/blog/archives/</loc>
-        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
+        <lastmod>2013-08-18T23:18:52+07:00</lastmod>
     </url>
     <url>
         <loc>http://staal.io/</loc>
-        <lastmod>2013-07-03T23:32:46+07:00</lastmod>
+        <lastmod>2013-08-18T23:18:52+07:00</lastmod>
     </url>
 </urlset>
