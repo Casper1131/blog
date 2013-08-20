@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Grunt | Staal Forge]]></title>
   <link href="http://staal.io/blog/categories/grunt/atom.xml" rel="self"/>
   <link href="http://staal.io/"/>
-  <updated>2013-08-20T02:34:15+07:00</updated>
+  <updated>2013-08-20T12:17:25+07:00</updated>
   <id>http://staal.io/</id>
   <author>
     <name><![CDATA[Boris Staal]]></name>
@@ -18,7 +18,7 @@
     <link href="http://staal.io/blog/2013/08/17/incredibly-convenient-testing-of-frontend-javascript-with-node-dot-js/"/>
     <updated>2013-08-17T23:28:00+07:00</updated>
     <id>http://staal.io/blog/2013/08/17/incredibly-convenient-testing-of-frontend-javascript-with-node-dot-js</id>
-    <content type="html"><![CDATA[<p>You do have automated testing for your front-end Javascript application / library / framework don't you? And tests work equally well at console, browsers and Travis aren't they? And you run them in every possible browser on each release (or even push) right? If the answer is no, you might be doing it wrong. Let's see if can do something about it!</p>
+    <content type="html"><![CDATA[<p>You do have automated testing for your front-end Javascript application / library / framework don't you? And tests work equally well at console, browsers and Travis aren't they? And you run them in every possible browser on each release (or even push) right? If the answer is no, you might be doing it wrong. Let's see if we can do something about it!</p>
 
 <p>This article briefly describes a little piece of theory behind testing of standalone front-end projects, issues that you are likely to meet and the solution I came up with. Here's the shortcut <a href="https://github.com/inossidabile/grunt-contrib-testem">https://github.com/inossidabile/grunt-contrib-testem</a> if you are already bored so far ;).</p>
 
